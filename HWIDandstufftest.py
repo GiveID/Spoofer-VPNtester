@@ -50,7 +50,7 @@ def delete_ban():
 # GUI
 def setup_gui():
     root = tk.Tk()
-    root.title("Spoofer/Spoofer testing GUI")
+    root.title("Spoofer/VPN testing GUI")
     
     if is_banned():
         messagebox.showwarning("Banned", "BANNED/SPOOFER/VPN DIDN'T WORK")
